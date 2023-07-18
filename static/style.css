@@ -8,18 +8,18 @@ td {
 }
 
 .cell {
-    padding: 0px;
-    background: #708cd2;
-    width: 20px;
-    height: 20px;
+    padding: 5px;
+    background: whitesmoke;
+    width: 10px;
+    height: 10px;
 }
 
 .living-cell {
-    background: limegreen;
+    background: lightgreen;
 }
 
 .dead-cell {
-    background: #696262;
+    background: darkred;
 }
 
 .content {
@@ -28,7 +28,7 @@ td {
     align-items: center;
 }
 
-/*a, */table {
+a, table {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -36,17 +36,17 @@ td {
 }
 
 .home {
-    top: 5%;
-    left: 45%;
+    top: 10%;
+    left: 35%;
 }
 
 .refresh {
-    top: 5%;
-    left: 55%;
+    top: 10%;
+    left: 65%;
 }
 
 .counter {
-    margin: 20px 3px 3px;
+    margin: 30px 3px 3px;
     padding: 5px;
     font-family: "Book Antiqua", "Arial";
     background: aliceblue;
