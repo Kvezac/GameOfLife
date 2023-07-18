@@ -11,7 +11,7 @@ def index():
     return render_template("index.html")
 
 
-@app.route('/live', methods=["GET", "POST"])
+@app.route('/live')
 def live():
     game = GameOfLife()
     if game.count > 0:
