@@ -8,27 +8,27 @@ td {
 }
 
 .cell {
-    padding: 5px;
-    background: whitesmoke;
-    width: 10px;
-    height: 10px;
+    padding: 0px;
+    background: #708cd2;
+    width: 20px;
+    height: 20px;
 }
 
 .living-cell {
-    background: lightgreen;
+    background: limegreen;
 }
 
 .dead-cell {
-    background: darkred;
+    background: #696262;
 }
 
 .content {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
 }
 
-a, table {
+/*a, */table {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -57,7 +57,7 @@ a, table {
 
 
 .btn {
-    display: flex;
+    display: inline-block;
     padding: 6px 12px;
     margin-bottom: 0;
     font-size: 14px;
